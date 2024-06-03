@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+:root {
+    --color: #333;
+    --a-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: #f8f9fa;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://segredosdomundo.r7.com/wp-content/uploads/2021/06/curiosidades-sobre-o-senhor-dos-aneis-famosa-trilogia-completa-20-anos.jpg.webp);
+    background-size: cover;
+    background-position: center;
+
+    background-attachment: fixed;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+p {
+    max-width: 52ch;
+    line-height: 1.5;
+    padding: 1em;
+}
+
+a {
+    display: inline-block;
+    padding: 1em 3.5em;
+    margin-top: 1.50em;
+    background-color: var(--color);
+    color: var(--a-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: .875rem;
+    transition: .3s;
+}
+
+a:hover {
+    letter-spacing: .9px;
+    transform: scale(1.05);
+}
+
+.parallax,
+.other {
+    width: 100%;
+    min-height: 60vh;
+    background-color: var(--color);
+}
+
+.segundo {
+    background-image: url(https://i.pinimg.com/originals/72/d7/de/72d7de1852f04c7ce3bd1c41f2ab2538.jpg);
+    background-attachment: fixed;
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 1em;
+}
+
+.card>a {
+    margin-bottom: 2em;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    background-color: #aa8747;
+    border-radius: .5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+}
+
+.image>img {
+    max-width: 90%;
+    height: 90%;
+    border-radius: .4em;
+    margin-top: 1.25em;
+}
+
+.segundo {
+    flex-direction: row;
+    gap: 1.6em;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color);
+}
+
+.dev {
+    color: var(--a-color);
+}
